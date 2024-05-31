@@ -564,7 +564,7 @@
 			},
 			{
 				"name": "Mobilization",
-				"uniques": ["[Bought] units gain the [Ignore Zone of Control] promotion"],
+				"uniques": ["[Rifleman][Militia][Infantry][Lightsaberman] units gain the [Ignore Zone of Control] promotion"],
 				"row": 1,
 				"column": 3
 			},
