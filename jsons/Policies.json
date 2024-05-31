@@ -563,8 +563,8 @@
 				"column": 1
 			},
 			{
-				"name": "Resettlement",
-				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
+				"name": "Mobilization",
+				"uniques": ["[Purchased] units gain the [Ignore Zone of Control] promotion",],
 				"row": 1,
 				"column": 3
 			},
