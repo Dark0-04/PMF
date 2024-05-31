@@ -501,6 +501,12 @@
 					"Only available <before adopting [Quixotic B]>"],
 		"policies": [
 			{
+				"name": "Universal Suffrage",
+				"uniques": ["[+1 Production] per [4] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
 				"name": "Civil Society",
 				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 				"row": 1,
@@ -515,7 +521,7 @@
 			{
 				"name": "Communism",
 				"uniques": ["[+33]% Strength for cities <when defending>"],
-				"requires": ["Civil Society"],
+				"requires": ["Universal Suffrage","Civil Society"],
 				"row": 2,
 				"column": 1
 			},
@@ -527,9 +533,23 @@
 				"column": 3
 			},
 			{
+				"name": "Volunteer Army",
+				"uniques": ["[5] units cost no maintenance","[5] free [Great War Infantry] units appear"],
+				"requires": ["Nationalism"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Free Healthcare",
+				"requires": ["Socialism", "Communism"],
+				"uniques": ["[+3 Happiness] from every [Hospital]"],
+				"row": 3,
+				"column": 1
+			}
+			{
 				"name": "Democracy",
 				"uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
-				"requires": ["Socialism", "Nationalism"],
+				"requires": ["Socialism", "Volunteer Army"],
 				"row": 3,
 				"column": 4
 			},
