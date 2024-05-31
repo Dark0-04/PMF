@@ -564,7 +564,7 @@
 			},
 			{
 				"name": "Mobilization",
-				"uniques": ["[Purchased] units gain the [Ignore Zone of Control] promotion",],
+				"uniques": ["[Purchased] units gain the [Ignore Zone of Control] promotion"],
 				"row": 1,
 				"column": 3
 			},
