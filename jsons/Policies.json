@@ -599,6 +599,13 @@
 				"column": 5
 			},
 			{
+				"name": "Lightning Warfare",
+				"uniques": ["[+25]% Strength <for [Armored] units> <when attacking>","[Armored] units gain the [Ignore Zone of Control] promotion","[+1] Movement <for [Armored] units>"],
+				"requires": ["Resettlement","Fascism"],
+				"row": 3,
+				"column": 2
+			},
+			{
 				"name": "Total War",
 				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", 
 							"New [Military] units start with [15] Experience [in all cities]"],
