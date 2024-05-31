@@ -534,7 +534,7 @@
 			},
 			{
 				"name": "Volunteer Army",
-				"uniques": ["[5] units cost no maintenance","[5] free [Great War Infantry] units appear"],
+				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear"],
 				"requires": ["Nationalism"],
 				"row": 2,
 				"column": 5
