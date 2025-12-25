@@ -116,7 +116,7 @@
 				"name": "Liberty Complete",
 				"uniques": ["Free Great Person", 
 							"[+15]% Production when constructing [Monument] buildings [in all cities]", 
-							"[+33]% Production when constructing [National Epic] wonders [in all cities]"
+							"[+33]% Production when constructing [National Epic] wonders [in all cities]",
 							"[+15]% Production when constructing [Colosseum] buildings [in all cities]", 
 							"[+33]% Production when constructing [The Great Colosseum] wonders [in all cities]"]
 			}
@@ -639,6 +639,19 @@
 				"requires": ["Occupation Government"],
 				"row": 3,
 				"column": 5
+			},
+			{
+				"name": "Censorship",
+				"uniques": ["[+2 Culture] from every [Courthouse]", "Earn [33]% of killed [Military] unit's [Cost] as [Culture]",],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Mass propaganda",
+				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
+				"requires": ["Censorship"],
+				"row": 2,
+				"column": 7
 			},
 		]
 	}
