@@ -628,15 +628,15 @@
 			},
 			{
 				"name": "Occupation Government",
-				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
-				"requires": ["Populism"],
+				"uniques": ["[+3 Production] [in annexed cities]", "[+15]% [Science] [in puppeted cities]", "Cities are razed [2] times as fast"],
+				"requires": ["Police State"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Resettlement",
 				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
-				"requires": ["Populism"],
+				"requires": ["Occupation Government"],
 				"row": 3,
 				"column": 5
 			},
