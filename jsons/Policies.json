@@ -577,9 +577,25 @@
 					"Only available <before adopting [Quixotic A]>"],
 		"policies": [
 			{
+				"name": "Militarism",
+				"uniques": ["[Gold] cost of purchasing [All] units [-33]%", 
+							"[+10]% Strength <for [{Military} {Water}] units> <when fighting in [Foreign Land] tiles>"],
+				"row": 1,
+				"column": 1
+			},
+			{
 				"name": "Populism",
 				"uniques": ["[+25]% Strength <for [Wounded] units>"],
-				"row": 1,
+				"requires": ["Militarism"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Fascism",
+				"uniques": ["[100]% [Strategic] resource production", 
+							"[+2] Movement <for [Great General] units>"],
+				"requires": ["Populism"],
+				"row": 3,
 				"column": 1
 			},
 			{
@@ -589,56 +605,41 @@
 				"column": 3
 			},
 			{
-				"name": "Militarism",
-				"uniques": ["[Gold] cost of purchasing [All] units [-33]%", 
-							"[+5]% Strength <for [{Military} {Water}] units> <when fighting in [Foreign Land] tiles>"],
-				"row": 1,
-				"column": 5
-			},
-		        {
-				"name": "Resettlement",
-				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
-				"requires": ["Populism"],
+				"name": "Total War",
+				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", 
+							"New [Military] units start with [15] XP [in all cities]"],
+				"requires": ["Mobilization"],
 				"row": 2,
-				"column": 1
+				"column": 3
 			},
 			{
-				"name": "Fascism",
-				"uniques": ["[100]% [Strategic] resource production", 
-							"[+2] Movement <for [Great General] units>"],
-				"requires": ["Populism","Militarism"],
-				"row": 2,
+				"name": "Lightning Warfare",
+				"uniques": ["[+25]% Strength <for [Armored] units> <when attacking>","[Armored] units gain the [Ignore Zone of Control] promotion","[+1] Movement <for [Armored] units>"],
+				"requires": ["Total War"],
+				"row": 3,
 				"column": 3
 			},
 			{
 				"name": "Police State",
 				"uniques": ["[+3 Happiness] from every [Courthouse]", 
 							"[+100]% Production when constructing [Courthouse] buildings [in all cities]"],
-				"requires": ["Militarism"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Occupation Government",
+				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
+				"requires": ["Populism"],
 				"row": 2,
 				"column": 5
 			},
 			{
-				"name": "Lightning Warfare",
-				"uniques": ["[+25]% Strength <for [Armored] units> <when attacking>","[Armored] units gain the [Ignore Zone of Control] promotion","[+1] Movement <for [Armored] units>"],
-				"requires": ["Resettlement","Fascism"],
+				"name": "Resettlement",
+				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
+				"requires": ["Populism"],
 				"row": 3,
-				"column": 2
+				"column": 5
 			},
-			{
-				"name": "Total War",
-				"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", 
-							"New [Military] units start with [15] XP [in all cities]"],
-				"requires": ["Police State","Fascism"],
-				"row": 3,
-				"column": 4
-			},
-			{
-				"name": "Quixotic B Complete",
-				"uniques": ["[+2 Production] [in all cities]", 
-							"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>"
-				]
-			}
 		]
 	}
 		]
