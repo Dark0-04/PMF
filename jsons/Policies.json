@@ -647,10 +647,17 @@
 				"column": 7
 			},
 			{
-				"name": "Mass propaganda",
-				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
+				"name": "Mass Propaganda",
+				"uniques": ["[+1 Happiness] per [4] population [in all cities] <when at war>"],
 				"requires": ["Censorship"],
 				"row": 2,
+				"column": 7
+			},
+			{
+				"name": "Cult of Personality",
+				"uniques": ["[+1] population [in annexed cities]", "[+1 Happiness] [in annexed cities]", "[+2 Food] [in annexed cities]"],
+				"requires": ["Mass Propaganda"],
+				"row": 3,
 				"column": 7
 			},
 		]
