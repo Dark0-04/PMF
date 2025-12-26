@@ -557,10 +557,30 @@
 			},
 			{
 				"name": "Rule of Law",
-				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear"],
+				"uniques": ["[+10]% Science from every [Courthouse]", "[+10]% Gold from every [Courthouse]"],
+				"requires": ["Free Speech"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Nationalism",
+				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+				"row": 1,
+				"column": 7
+			},
+			{
+				"name": "Volunteer Army",
+				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear", ],
 				"requires": ["Nationalism"],
 				"row": 2,
-				"column": 5
+				"column": 7
+			},
+			{
+				"name": "Volunteer Army",
+				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear"],
+				"requires": ["Volunteer Army"],
+				"row": 3,
+				"column": 7
 			},
 		]
 	},
