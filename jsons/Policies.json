@@ -544,8 +544,22 @@
 			},
 			{
 				"name": "Liberalism",
-				"uniques": ["[+1 Culture] from every [Messengers]", "[+3 Or] from every [Messengers]"],
+				"uniques": ["[+3 Or] from every [Messengers]"],
 				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Free Speech",
+				"uniques": ["[Great Artist] is earned [33]% faster", "[Great Scientist] is earned [33]% faster"],
+				"requires": ["Liberalism"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Rule of Law",
+				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear"],
+				"requires": ["Nationalism"],
+				"row": 2,
 				"column": 5
 			},
 		]
