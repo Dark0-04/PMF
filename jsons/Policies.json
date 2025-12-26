@@ -570,18 +570,26 @@
 			},
 			{
 				"name": "Volunteer Army",
-				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear", ],
+				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear", "[Militia] units gain the [Defender I] promotion",
+                    "All newly-trained [Militia] units [in all cities] receive the [Defender I] promotion",],
 				"requires": ["Nationalism"],
 				"row": 2,
 				"column": 7
 			},
 			{
-				"name": "Volunteer Army",
-				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear"],
+				"name": "Civic Service",
+				"uniques": ["[+1 Production] from every [Barrack]", "[+1 Science] from every [Barrack]", "[+1 Food] from every [Barrack]", "[+1 Production] from every [Military Base]", "[+1 Science] from every [Military Base]", "[+1 Food] from every [Military Base]"],
 				"requires": ["Volunteer Army"],
 				"row": 3,
 				"column": 7
 			},
+			{
+				"name": "Quixotic A Complete",
+				"uniques": ["[+50]% Yield from every [Great Improvement]", 
+							"[+50]% Golden Age length", 
+							"[+1 Food, +1 Science, +1 Culture] [in all cities]"
+				]
+			}
 		]
 	},
 	{
