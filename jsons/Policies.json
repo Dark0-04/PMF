@@ -535,10 +535,18 @@
 			}
 			{
 				"name": "Communism",
-				"uniques": ["[+33]% Strength for cities <when defending>"],
+				"uniques": ["[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"],
 				"requires": ["Free Healthcare"],
 				"row": 3,
 				"column": 3
+			},
+			{
+				"name": "Liberalism",
+				"uniques": ["[+1 Culture] from every [Messengers]", "[+3 Or] from every [Messengers]"],
+				"row": 1,
+				"column": 5
 			},
 		]
 	},
