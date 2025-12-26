@@ -501,65 +501,45 @@
 					"Only available <before adopting [Quixotic B]>"],
 		"policies": [
 			{
-				"name": "Universal Suffrage",
-				"uniques": ["[+1 Production] per [4] population [in all cities]"],
+				"name": "Civil Society",
+				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
 			{
-				"name": "Civil Society",
-				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
-				"row": 1,
-				"column": 3
-			},
-			{
-				"name": "Nationalism",
-				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Communism",
-				"uniques": ["[+33]% Strength for cities <when defending>"],
-				"requires": ["Universal Suffrage","Civil Society"],
+				"name": "Universal Suffrage",
+				"uniques": ["[+1 Production] per [4] population [in all cities]"],
+				"requires": ["Civil Society"],
 				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Democracy",
+				"uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
+				"requires": ["Universal Suffrage"],
+				"row": 3,
 				"column": 1
 			},
 			{
 				"name": "Socialism",
 				"uniques": ["[-15]% maintenance cost for [all] buildings [in all cities]"],
-				"requires": ["Civil Society"],
-				"row": 2,
+				"row": 1,
 				"column": 3
 			},
 			{
-				"name": "Volunteer Army",
-				"uniques": ["[5] units cost no maintenance","[2] free [Volunteers] units appear", "[2] free [Rifleman] units appear", "[1] free [Arbalester] units appear"],
-				"requires": ["Nationalism"],
-				"row": 2,
-				"column": 5
-			},
-			{
 				"name": "Free Healthcare",
-				"requires": ["Socialism", "Communism"],
+				"requires": ["Socialism"],
 				"uniques": ["[+3 Happiness] from every [Hospital]"],
-				"row": 3,
-				"column": 2
+				"row": 2,
+				"column": 3
 			}
 			{
-				"name": "Democracy",
-				"uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
-				"requires": ["Socialism", "Volunteer Army"],
+				"name": "Communism",
+				"uniques": ["[+33]% Strength for cities <when defending>"],
+				"requires": ["Free Healthcare"],
 				"row": 3,
-				"column": 4
+				"column": 3
 			},
-			{
-				"name": "Quixotic A Complete",
-				"uniques": ["[+50]% Yield from every [Great Improvement]", 
-							"[+50]% Golden Age length", 
-							"[+1 Food, +1 Science, +1 Culture] [in all cities]"
-				]
-			}
 		]
 	},
 	{
