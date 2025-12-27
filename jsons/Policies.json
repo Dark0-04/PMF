@@ -578,7 +578,7 @@
 			},
 			{
 				"name": "Civic Service",
-				"uniques": ["[+1 Production] from every [Barrack]", "[+1 Science] from every [Barrack]", "[+1 Food] from every [Barrack]", "[+1 Production] from every [Military Base]", "[+1 Science] from every [Military Base]", "[+1 Food] from every [Military Base]"],
+				"uniques": ["[+1 Production] from every [Barracks]", "[+1 Science] from every [Barracks]", "[+1 Food] from every [Barracks]", "[+1 Production] from every [Military Base]", "[+1 Science] from every [Military Base]", "[+1 Food] from every [Military Base]"],
 				"requires": ["Volunteer Army"],
 				"row": 3,
 				"column": 7
