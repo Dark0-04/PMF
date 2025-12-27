@@ -544,7 +544,7 @@
 			},
 			{
 				"name": "Liberalism",
-				"uniques": ["[+3 Or] from every [Messengers]"],
+				"uniques": ["[+3 Gold] from every [Messengers]"],
 				"row": 1,
 				"column": 5
 			},
@@ -557,7 +557,7 @@
 			},
 			{
 				"name": "Rule of Law",
-				"uniques": ["[+10]% Science from every [Courthouse]", "[+10]% Gold from every [Courthouse]"],
+				"uniques": ["[+10]% [Science] from every [Courthouse]", "[+10]% [Gold] from every [Courthouse]"],
 				"requires": ["Free Speech"],
 				"row": 3,
 				"column": 5
